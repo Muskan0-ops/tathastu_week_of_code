@@ -1,0 +1,6 @@
+def swap():
+    num1=input("enter num1")
+    num2=input("enter num2")
+    num1,num2=num2,num1
+    print(num1)
+    print(num2)
