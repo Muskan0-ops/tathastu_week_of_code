@@ -1,0 +1,5 @@
+def ssort():
+    list=input("enter the list")
+    n=input("enter the element through to be sorted")
+    print(str(list))
+    print(list.sort(key=lambda x:x[n]))
