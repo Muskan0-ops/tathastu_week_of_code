@@ -1,0 +1,6 @@
+list1=list(map(int,input().split()))
+list2=list(map(int,input().split()))
+s1=set(list1)
+s2=set(list2)
+s=s1.intersection(s2)
+print(s)
